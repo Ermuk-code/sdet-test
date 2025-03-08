@@ -25,7 +25,7 @@ def test_form_submission(driver):
 
     form_page.select_automation_yes()
 
-    form_page.fill_email("test@example.com")
+    form_page.fill_email("barabulka@gmail.com")
 
     message = f"5"
     form_page.fill_message(message)
